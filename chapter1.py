@@ -11,6 +11,29 @@ print("howdy, y'll")
 print ('this' 'could be')
 print('this', 'could be')
 
+a = 'study' 
+print (a)
+
+a = 'study' 
+b = 'tea' 
+print (a,b)
+
+a, b = 'biology', 'chemistry'
+print (a, b)
+
+a = 50 
+print ('a is', a)
+
+a = 'hello' 
+print(a)
+
+a = 'seeyou' 
+print(a)
+quit() 
+
+
+
+
 
 
 
