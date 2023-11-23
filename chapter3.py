@@ -85,6 +85,11 @@ for a in range(1, 4):
     for b in range (1,4):
         print ('b=', b)
 
+print(f'{a}x{b}{a*b} ', end='')
+
+# end=''　（文字列の後に改行をつけるが、これによって改行をなくすことができる。）
+
+
 
 
 
