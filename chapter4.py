@@ -224,6 +224,49 @@ print(set1 & set2)
 print(set1 - set2)
 print(set1 ^ set2)
 
+print('📚 4-5 基本形の性質')
+
+#　①　Mutable - list, dict, set 
+m = [1,2,3,4,5]
+print(id(m))
+m.append(45)
+print(id(m))
+
+#　②　Immutable - int, float, bool. str, tuple 
+t = (1,2,3)
+print(id(t))
+t = t + (5,6)
+print(t)
+print(id(t))
+
+#①for文、リスト、タプル、辞書、セット
+for c in 'Hello how are you':
+    print(c)
+
+                #(反復可能なオブジェクト)＝一つずつ順番に取り出せるもの
+# list 
+s = {'A','B','C'}
+for i in s:
+    print(i)
+
+# Set 
+info = {'firstname':'Jiro','lastname':'Smith', 'phone':'000-0000-000'}
+for i in info:
+    print(i)
+
+s = 'Python'
+print(s[3])
+print(s[1:5]) #from 1 to 4 
+
+import turtle
+
+for i in range(10,301,10): 
+    turtle.forward(i)
+    turtle.left(90)
+
+turtle.Screen().exitonclick()
+turtle.bye()
+
 
 
 
