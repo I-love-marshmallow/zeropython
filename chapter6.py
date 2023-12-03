@@ -76,24 +76,17 @@ class StudentCard: #外部からアクセスできない仕組み
         self.__id = id 
         self.__name = name  
 
-    def get_name(self):#名前を外部に公開できる設定
-        return self._name 
+    def get__name(self):#名前を外部に公開できる設定
+        return self.__name 
     
-    def get_id(self): # same function with id
+    def get__id(self): # same function with id
         return self.__id 
 
 a = StudentCard(1111, 'Jenny')
 #print(a.__id)
 #print(a.__name)
 
-print(a.get__id())　#get_idの方を使用して情報を公開する（設定を変更を許可しない）
+print(a.get__id()) 
 print(a.get__name())
-
-
-
-
-
-
-
 
 
